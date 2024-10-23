@@ -1,11 +1,11 @@
 <div class="container__small-card">
     <div class="small-card__pic">
-        <img src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+        <img src="{{photoCover}}"
              alt=""
         >
     </div>
     <div class="small-card__title">
-        <h1><a href="#">Saiu a nova</a></h1>
+        <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
     </div>
 </div>
 <hr />
